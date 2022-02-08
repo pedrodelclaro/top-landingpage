@@ -1,8 +1,6 @@
 body {
     font-family: Helvetica, sans-serif; 
     margin: 0;
-    display: flex;
-    flex-direction: column;
 }
 
 .header,
@@ -10,18 +8,18 @@ body {
     background: #1F2937;
     color: #F9FAF8;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
 .header {
-    text-align: center;
-    padding: 10px 200px;
+    padding: 5px 150px;
 }
 
 .logo {
     font-size: 24px;
     font-weight: bold;
+    text-align: left;
 }
 
 ul {
@@ -29,24 +27,24 @@ ul {
     display: flex;
     gap: 23px;
     font-size: 18px;
+    text-align: center;
+    margin-left: auto;
 }
 
 a {
     text-decoration: none;
-    color: inherit;
+    color: inherit; 
 }
 
 .main {
-    padding: 30px 200px 80px;
-    gap: 40px;
+    padding: 30px 150px 60px;
+    gap: 30px;
 }
 
-.mtext {
+ .mtext {
     display: flex;
     flex-direction: column;
-    height: 300px;
-    justify-content: space-between;
-}
+} 
 
 h1 {
     font-size: 48px;
@@ -57,7 +55,6 @@ h1 {
 .pone,
 button {
     font-size: 18px;
-     margin: 0;
 }
 
 button {
@@ -70,7 +67,72 @@ button {
 }
 
 .banner {
-    width: 520px;
-    height: 300px;
+    width: 700px;
+    height: 250px;
     object-fit: cover;
+}
+
+.leaders {
+    background: #F9FAF8;
+    padding: 30px 150px 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bolder;
+}
+
+.badges {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.portrait {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+}
+
+.badge {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: flex-start;
+    flex: 1;
+}
+
+.description {
+    font-size: 18px;
+    color: #1F2937;
+    text-align: center;
+}
+
+.quote {
+    background: #E5E7EB;
+    padding: 30px 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.qtext {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 100;
+    margin-bottom: 0;
+}
+
+.source {
+    font-size: 18px;
+    color: #1F2937;
+    align-self: flex-end;
+    font-weight: bold;
 }
