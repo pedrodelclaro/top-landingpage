@@ -1,5 +1,5 @@
 body {
-    font-family: Helvetica, sans-serif; 
+    font-family: Helvetica, sans-serif;
     margin: 0;
 }
 
@@ -8,18 +8,19 @@ body {
     background: #1F2937;
     color: #F9FAF8;
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 
 .header {
     padding: 5px 150px;
+    justify-content: space-between;
 }
 
 .logo {
     font-size: 24px;
-    font-weight: bold;
+    font-weight: 700;
     text-align: left;
+
 }
 
 ul {
@@ -28,7 +29,6 @@ ul {
     gap: 23px;
     font-size: 18px;
     text-align: center;
-    margin-left: auto;
 }
 
 a {
@@ -39,16 +39,17 @@ a {
 .main {
     padding: 30px 150px 60px;
     gap: 30px;
+    justify-content: center;
 }
 
- .mtext {
+.mtext {
     display: flex;
     flex-direction: column;
 } 
 
 h1 {
     font-size: 48px;
-    font-weight: bolder;
+    font-weight: 900;
     margin: 0;
 }
 
@@ -70,23 +71,25 @@ button {
 }
 
 .banner {
-    width: 700px;
-    height: 250px;
+    max-width: 400px;
+    height: auto;
     object-fit: cover;
 }
 
 .leaders {
     background: #F9FAF8;
-    padding: 30px 150px 60px;
+    padding: 30px 150px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 10px
 }
 
 h2 {
     font-size: 36px;
     color: #1F2937;
-    font-weight: bolder;
+    font-weight: 900;
+    text-align: center;
 }
 
 .badges {
@@ -136,12 +139,12 @@ h2 {
     font-size: 18px;
     color: #1F2937;
     align-self: flex-end;
-    font-weight: bold;
+    font-weight: 700;
 }
 
 .final {
     background: #F9FAF8;
-    padding: 60px 150px 60px;
+    padding: 30px 150px;
     align-items: center;
 }
 
